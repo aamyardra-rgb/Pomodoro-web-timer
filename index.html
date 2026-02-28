@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <h1>🍅 Pomodoro</h1>
+        <button id="darkModeToggle">🌙</button>
+    </div>
+
+    <div class="mode-buttons">
+        <button onclick="setMode(25)">Pomodoro</button>
+        <button onclick="setMode(5)">Short Break</button>
+        <button onclick="setMode(15)">Long Break</button>
+    </div>
+
+    <div class="circle">
+        <svg width="220" height="220">
+            <circle cx="110" cy="110" r="100" stroke="#eee" stroke-width="10" fill="none"/>
+            <circle id="progress"
+                cx="110" cy="110" r="100"
+                stroke="#ff6b6b"
+                stroke-width="10"
+                fill="none"
+                stroke-dasharray="628"
+                stroke-dashoffset="0"
+                stroke-linecap="round"/>
+        </svg>
+
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+</div>
+
+<audio id="alarmSound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
