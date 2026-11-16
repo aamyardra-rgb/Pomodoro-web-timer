@@ -1,5 +1,5 @@
 
-🍅 Pomodoro Web Timer
+🍅 POMODORO WEB TIMER
 
 A cute and interactive Pomodoro Timer designed to make my study sessions more focused, organized, and enjoyable! 📚✨
 
@@ -53,6 +53,10 @@ I built this project to create a simple yet adorable timer for my study sessions
 Sometimes a cute and friendly interface can make studying feel less stressful and more enjoyable. 🌷✨
 
 📸 Preview
+<img width="958" height="736" alt="Screenshot 2026-11-16 172228" src="https://github.com/user-attachments/assets/51c21bd3-3f2f-43b4-89a4-e2f3701073df" />
+<img width="972" height="827" alt="Screenshot 2026-11-16 172205" src="https://github.com/user-attachments/assets/a051da72-34f0-4cdd-8347-94c6c22db7b2" />
+<img width="902" height="740" alt="Screenshot 2026-11-16 172246" src="https://github.com/user-attachments/assets/80601556-b411-4d7a-ab1a-ea5f4e8f5b1c" />
+<img width="768" height="768" alt="Screenshot 2026-11-16 172259" src="https://github.com/user-attachments/assets/1674cd8a-5276-4d32-8a13-6a8288966369" />
 
 
 🌸 Happy Studying & Stay Productive! 🍅⏰💖
